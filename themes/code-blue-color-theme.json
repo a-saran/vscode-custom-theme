@@ -26,14 +26,14 @@
     "menu.selectionForeground": "#fff",
     "menubar.selectionBackground": "#0d3a58",
     // activityBar
-    "activityBar.background": "#122738",
-    "activityBar.border": "#0d3a58",
+    "activityBar.background": "#091014",
+    "activityBar.border": "#1e3343",
     "activityBar.dropBackground": "#0d3a58",
     "activityBar.foreground": "#fff",
-    "activityBarBadge.background": "#ffc600",
+    "activityBarBadge.background": "#00f2ff",
     "activityBarBadge.foreground": "#000",
     // badge
-    "badge.background": "#ffc600",
+    "badge.background": "#00d5ff",
     "badge.foreground": "#000",
     // button
     "button.background": "#0088ff",
@@ -59,12 +59,12 @@
     "dropdown.foreground": "#fff",
     // editor
     // This is the main background color
-    "editor.background": "#193549",
+    "editor.background": "#12222e",
     // this is the main text colour
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
     // Currently found item
-    "editor.findMatchBackground": "#FF720066",
+    "editor.findMatchBackground": "#d72943ba",
     // Other Found Items int the document
     "editor.findMatchHighlightBackground": "#CAD40F66",
     // WTF is this one for? I don't know
@@ -74,8 +74,8 @@
     // when you have something selected, but have lost focus on the editor
     "editor.inactiveSelectionBackground": "#003b8b",
     // current line styles
-    "editor.lineHighlightBackground": "#1F4662",
-    "editor.lineHighlightBorder": "#234E6D",
+    "editor.lineHighlightBackground": "#36587069",
+    "editor.lineHighlightBorder": "#545e65",
     "editor.rangeHighlightBackground": "#1F4662",
     // selected Text colours
     // This is the standard Select colour
@@ -96,7 +96,7 @@
     "editorError.border": "#0d3a58",
     "editorError.foreground": "#A22929",
     // gutter
-    "editorGutter.background": "#12273866",
+    "editorGutter.background": "#0e1d2a66",
     "editorGutter.addedBackground": "#3C9F4A",
     "editorGutter.deletedBackground": "#A22929",
     "editorGutter.modifiedBackground": "#26506D",
@@ -134,7 +134,7 @@
     "editorWarning.border": "#ffffff00",
     "editorWarning.foreground": "#ffc600",
     "editorWhitespace.foreground": "#ffffff1a",
-    "editorWidget.background": "#15232d",
+    "editorWidget.background": "#10161b",
     "editorWidget.border": "#0d3a58",
     "errorForeground": "#A22929",
     // extensionButton
@@ -156,7 +156,7 @@
     "inputValidation.warningBackground": "#193549",
     "inputValidation.warningBorder": "#ffc600",
     // list
-    "list.activeSelectionBackground": "#193549",
+    "list.activeSelectionBackground": "#13232e",
     "list.activeSelectionForeground": "#aaa",
     "list.dropBackground": "#0d3a58",
     "list.focusBackground": "#0d3a58",
@@ -167,7 +167,7 @@
     "list.inactiveSelectionBackground": "#0d3a58",
     "list.inactiveSelectionForeground": "#aaa",
     // menu
-    "menu.background": "#122738",
+    "menu.background": "#353812",
     // merge
     "merge.border": "#ffffff00",
     "merge.commonContentBackground": "#c97d0c",
@@ -218,7 +218,7 @@
     // selection
     "selection.background": "#027dff",
     // sidebar
-    "sideBar.background": "#15232d",
+    "sideBar.background": "#162026",
     "sideBar.border": "#0d3a58",
     "sideBar.foreground": "#aaa",
     "sideBarSectionHeader.background": "#193549",
@@ -239,11 +239,11 @@
     "statusBarItem.prominentBackground": "#15232d",
     "statusBarItem.prominentHoverBackground": "#0d3a58",
     // tab
-    "tab.activeBackground": "#193549",
+    "tab.activeBackground": "#091014",
     "tab.activeForeground": "#fff",
     "tab.border": "#15232D",
-    "tab.activeBorder": "#ffc600",
-    "tab.inactiveBackground": "#122738",
+    "tab.activeBorder": "#009dff",
+    "tab.inactiveBackground": "#121c21",
     "tab.inactiveForeground": "#aaa",
     "tab.unfocusedActiveForeground": "#aaa",
     "tab.unfocusedInactiveForeground": "#aaa",
@@ -335,7 +335,7 @@
       "name": "Keyword",
       "scope": "keyword, storage.type.class, keyword.control.default.ts",
       "settings": {
-        "foreground": "#1060c1"
+        "foreground": "#237ae5"
       }
     },
     {
@@ -429,7 +429,7 @@
       "name": "Support",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#6bd60e"
+        "foreground": "#36c87c"
       }
     },
     {
@@ -444,6 +444,13 @@
       "scope": "support.variable.property.dom",
       "settings": {
         "foreground": "#e1efff"
+      }
+    },
+    {
+      "name": "Support Variable Property Name",
+      "scope": "support.type.property-name.json",
+      "settings": {
+        "foreground": "#4e9ef9"
       }
     },
     {
