@@ -1,0 +1,21 @@
+{
+    "name": "new-theme",
+    "displayName": "new-theme",
+    "description": "",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.52.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "code-blue",
+                "uiTheme": "vs-dark",
+                "path": "./themes/code-blue-color-theme.json"
+            }
+        ]
+    }
+}
