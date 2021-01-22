@@ -307,7 +307,7 @@
       "name": "Constant",
       "scope": "constant",
       "settings": {
-        "foreground": "#ff628c"
+        "foreground": "#cf4822"
       }
     },
     {
@@ -438,7 +438,7 @@
       "name": "Support",
       "scope": "support.class.component",
       "settings": {
-        "foreground": "#36c87c"
+        "foreground": "#e45252"
       }
     },
     {
@@ -577,7 +577,7 @@
       "name": "[HTML] - Quotes. these are a slightly different colour because expand selection will then not include quotes",
       "scope": "punctuation.definition.string.begin, punctuation.definition.string.end",
       "settings": {
-        "foreground": "#92fc79"
+        "foreground": "#e5e5e5"
       }
     },
     {
@@ -605,7 +605,7 @@
       "name": "[INI] - Punctuation Separator",
       "scope": "source.ini punctuation.separator",
       "settings": {
-        "foreground": "#ff9d00"
+        "foreground": "#ece1cf"
       }
     },
     {
