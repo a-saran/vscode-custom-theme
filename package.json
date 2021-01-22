@@ -1,7 +1,7 @@
 {
-    "name": "new-theme",
-    "displayName": "new-theme",
-    "description": "",
+    "name": "customized-theme",
+    "displayName": "Dark Phantom",
+    "description": "New Dark theme with extra highlighting",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.52.0"
@@ -9,13 +9,34 @@
     "categories": [
         "Themes"
     ],
+    "galleryBanner": {
+        "color": "#193549",
+        "theme": "dark"
+    },
+    "keywords": [
+        "VSCode",
+        "Themes",
+        "dark",
+        "extra highlight"
+    ],
     "contributes": {
         "themes": [
             {
-                "label": "code-blue",
+                "label": "Dark Phantom",
                 "uiTheme": "vs-dark",
                 "path": "./themes/code-blue-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "bundle": "vsce package",
+        "publish": "vsce publish"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/wesbos/cobalt2-vscode"
+    },
+    "dependencies": {
+        "vsce": "^1.84.0"
     }
 }
