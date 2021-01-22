@@ -59,7 +59,7 @@
     "dropdown.foreground": "#fff",
     // editor
     // This is the main background color
-    "editor.background": "#12222e",
+    "editor.background": "#14232f",
     // this is the main text colour
     "editor.foreground": "#fff",
     // Okay this part is confusing as heck!
@@ -221,11 +221,11 @@
     "sideBar.background": "#162026",
     "sideBar.border": "#0d3a58",
     "sideBar.foreground": "#aaa",
-    "sideBarSectionHeader.background": "#193549",
-    "sideBarSectionHeader.foreground": "#aaaaaa",
+    "sideBarSectionHeader.background": "#0b0e10",
+    "sideBarSectionHeader.foreground": "#d0d0d0",
     "sideBarTitle.foreground": "#aaaaaa",
     // statusBar
-    "statusBar.background": "#15232d",
+    "statusBar.background": "#090b0d",
     "statusBar.border": "#0d3a58",
     "statusBar.debuggingBackground": "#15232d",
     "statusBar.debuggingBorder": "#ffc600",
@@ -416,6 +416,15 @@
       ],
       "settings": {
         "foreground": "#3ad900"
+      }
+    },
+    {
+      "name": "String Template",
+      "scope": [
+        "string.quoted"
+      ],
+      "settings": {
+        "foreground": "#b97e08"
       }
     },
     {
@@ -621,6 +630,13 @@
       }
     },
     {
+      "name": "[JAVASCRIPT] - constant Variable",
+      "scope": "variable.other.constant",
+      "settings": {
+        "foreground": "#e1e1e1"
+      }
+    },
+    {
       "name": "[PYTHON] - Self Argument",
       "scope": "variable.parameter.function.language.special.self.python",
       "settings": {
@@ -659,7 +675,7 @@
         "markup.heading.setext.2.markdown"
       ],
       "settings": {
-        "foreground": "#ffc600",
+        "foreground": "#009dff",
         "fontStyle": "bold"
       }
     },
