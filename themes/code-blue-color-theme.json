@@ -10,7 +10,7 @@
     "variable": "#ffffff",
     "interface": {
       // "foreground": "#ff0088",
-      "foreground": "#FF68B8",
+      "foreground": "#00aeff",
       "italic": true
     },
     "type": {
@@ -314,7 +314,7 @@
       "name": "Entity",
       "scope": "entity",
       "settings": {
-        "foreground": "#ffc600"
+        "foreground": "#00aeff"
       }
     },
     {
@@ -811,7 +811,7 @@
       "name": "[TYPESCRIPT] - Keyword",
       "scope": "source.ts keyword",
       "settings": {
-        "foreground": "#ffc600"
+        "foreground": "#b16611"
       }
     },
     {
