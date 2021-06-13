@@ -3,7 +3,7 @@
     "displayName": "Dark Phantom",
     "description": "New Dark theme with extra highlighting",
     "publisher": "saran-a",
-    "version": "0.0.1",
+    "version": "1.0.2",
     "engines": {
         "vscode": "^1.52.0"
     },
@@ -39,5 +39,6 @@
     },
     "dependencies": {
         "vsce": "^1.84.0"
-    }
+    },
+    "icon": "icon.png"
 }
