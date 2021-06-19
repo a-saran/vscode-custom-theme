@@ -15,7 +15,7 @@
     },
     "type": {
       // "foreground": "#ff0088",
-      "foreground": "#FF68B8",
+      "foreground": "#0066ff",
       "italic": true
     },
     // This colours both object definiton properties, as well as references. If the property does not exist, it will be white\.
@@ -619,7 +619,7 @@
       "name": "[JAVASCRIPT] - Variable Language",
       "scope": "variable.language, entity.name.type.class.js",
       "settings": {
-        "foreground": "#fb94ff"
+        "foreground": "#E45252"
       }
     },
     {
